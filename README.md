@@ -1,5 +1,5 @@
 # drupal-nginx-dockerfil
-1.download and go to Folder
+1.Download and go to Folder
 
 2.nano Dockerfil Write your MYSQLPASSWORD
 
