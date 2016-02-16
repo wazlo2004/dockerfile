@@ -35,8 +35,8 @@ RUN drush init -y
 
  RUN apt-get update \
     && apt-get install -y debconf-utils \
-    && echo mysql-server mysql-server/root_password password 19860324 | debconf-set-selections \
-    && echo mysql-server mysql-server/root_password_again password 19860324 | debconf-set-selections \
+    && echo mysql-server mysql-server/root_password password  YOURPASSWORD | debconf-set-selections \
+    && echo mysql-server mysql-server/root_password_again password YOURPASSWORD | debconf-set-selections \
     && apt-get install -y mysql-server 
  
 EXPOSE 80
