@@ -5,7 +5,7 @@ MAINTAINER wazlo2004
 RUN apt-get update
 RUN apt-get upgrade -y
 
-# nginx php5
+# nginx 1.8.1 php5
 
 RUN  apt-get install software-properties-common python-software-properties  -y
 RUN  apt-get install python-software-properties
