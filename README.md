@@ -3,7 +3,8 @@
 
 2.nano Dockerfil Write your MYSQLPASSWORD
 
-3.docker build -t wazlo2004/drupal-nginx:20150216 .
+3.build your docker image
+docker build -t wazlo2004/drupal-nginx:tag .
 
 docker run -ti --name YOURCONTAINERNAME wazlo2004/drupal-nginx:20150216 /bin/bash
 
