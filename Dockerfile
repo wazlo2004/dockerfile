@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER wazlo2004 
+MAINTAINER wazlo200444@gmail.com 
 
 RUN apt-get update
 RUN apt-get upgrade -y
@@ -19,7 +19,7 @@ RUN  apt-get install php5-gd -y
 RUN  apt-get install php5-cli -y
 
 RUN apt-get install nano wget  git -y
-RUN  mkdir  /usr/share/nginx/www
+RUN  mkdir -p /usr/share/nginx/www
 
 
 # drush
