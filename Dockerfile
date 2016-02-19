@@ -47,5 +47,5 @@ ADD  php.ini    /etc/php5/fpm/php.ini
 ADD  default   /etc/nginx/sites-available/default
 ADD  my.cnf    /etc/mysql/my.cnf
 ADD  bash.bashrc  /etc/bash.bashrc
-
+ADD  1.sh  /
 
